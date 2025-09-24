@@ -1,0 +1,111 @@
+{
+  "name": "react-trails",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "A highly customizable, intelligent breadcrumb component for React applications with universal compatibility",
+  "keywords": [
+    "react",
+    "breadcrumb",
+    "navigation",
+    "dynamic",
+    "typescript",
+    "nextjs",
+    "i18n",
+    "responsive",
+    "accessible",
+    "universal"
+  ],
+  "author": "Mohammed Afzal NA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Afsalasif/react-trails.git"
+  },
+  "homepage": "https://github.com/Afsalasif/react-trails#readme",
+  "bugs": {
+    "url": "https://github.com/Afsalasif/react-trails/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c && npm run build:css && node add-use-client.cjs",
+    "build:css": "postcss src/styles/*.css --dir dist --ext .css",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "cypress run",
+    "lint": "eslint src --ext .ts,.tsx --fix",
+    "prettier": "prettier --write 'src/**/*.{ts,tsx,json,md}'",
+    "typecheck": "tsc --noEmit",
+    "validate": "npm run typecheck && npm run lint && npm run test",
+    "prepublishOnly": "npm run validate && npm run build",
+    "release": "np",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "examples:nextjs": "cd examples/nextjs && npm run dev",
+    "examples:cra": "cd examples/cra && npm start"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "autoprefixer": "^10.0.0",
+    "cypress": "^13.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-react-refresh": "^0.4.21",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0",
+    "np": "^8.0.0",
+    "postcss": "^8.0.0",
+    "postcss-cli": "^10.0.0",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-peer-deps-external": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "tailwindcss": "^3.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "vitepress": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "next": ">=12.0.0"
+  },
+  "dependencies": {
+    "install": "^0.13.0"
+  }
+}
