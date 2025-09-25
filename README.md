@@ -19,11 +19,12 @@
 </p>
 
 <p align="center">
-  ![npm downloads](https://img.shields.io/npm/dw/react-trails)
-  <img src="https://img.shields.io/badge/✅_Next.js-13%2B_Compatible-brightgreen?style=for-the-badge&logo=next.js" alt="Next.js Compatible" />
-  <img src="https://img.shields.io/badge/✅_React-18%2B_Compatible-blue?style=for-the-badge&logo=react" alt="React Compatible" />
-  <img src="https://img.shields.io/badge/✅_SSR-Fully_Supported-purple?style=for-the-badge" alt="SSR Support" />
+  <img src="https://img.shields.io/npm/dw/react-trails" alt="Weekly Downloads" style="margin:0 5px;" />
+  <img src="https://img.shields.io/badge/✅_Next.js-13%2B_Compatible-brightgreen?style=for-the-badge&logo=next.js" alt="Next.js Compatible" style="margin:0 5px;" />
+  <img src="https://img.shields.io/badge/✅_React-18%2B_Compatible-blue?style=for-the-badge&logo=react" alt="React Compatible" style="margin:0 5px;" />
+  <img src="https://img.shields.io/badge/✅_SSR-Fully_Supported-purple?style=for-the-badge" alt="SSR Support" style="margin:0 5px;" />
 </p>
+
 
 <p align="center">
   <a href="https://github.com/Afsalasif/react-trails">
