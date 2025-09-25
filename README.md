@@ -19,9 +19,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/dw/react-trails" alt="Weekly Downloads" style="margin:0 5px;" />
-  <img src="https://img.shields.io/badge/✅_Next.js-13%2B_Compatible-brightgreen?style=for-the-badge&logo=next.js" alt="Next.js Compatible" style="margin:0 5px;" />
-  <img src="https://img.shields.io/badge/✅_React-18%2B_Compatible-blue?style=for-the-badge&logo=react" alt="React Compatible" style="margin:0 5px;" />
+
+  <img src="https://img.shields.io/badge/Downloads-271/week-brightgreen?style=for-the-badge&logo=npm&logoColor=white" alt="Weekly Downloads" style="margin:0 5px;" />
+  <img src="https://img.shields.io/badge/✅_Next.js-13%2B_Compatible-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Compatible" style="margin:0 5px;" />
+  <img src="https://img.shields.io/badge/✅_React-18%2B_Compatible-blue?style=for-the-badge&logo=react&logoColor=white" alt="React Compatible" style="margin:0 5px;" />
   <img src="https://img.shields.io/badge/✅_SSR-Fully_Supported-purple?style=for-the-badge" alt="SSR Support" style="margin:0 5px;" />
 </p>
 
